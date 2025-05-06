@@ -1,5 +1,5 @@
-name: "Test action"
-description: "Test action"
+name: "Webhook processing test action 1"
+description: "Webhook processing test action - marketplace_purchase testing"
 inputs:
   message:
     description: "The message to print."
