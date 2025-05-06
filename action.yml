@@ -1,0 +1,11 @@
+name: "Test action"
+description: "Test action"
+inputs:
+  message:
+    description: "The message to print."
+    required: false
+runs:
+  using: composite
+  steps:
+    - run: echo "${{ inputs.message }}"
+      shell: bash
